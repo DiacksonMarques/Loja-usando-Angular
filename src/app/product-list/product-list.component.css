@@ -1,5 +1,28 @@
-
-
+button{
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #1976d2;
+}
+button i{
+  font-size: 20px;
+  margin-right: 5%;
+  color: #fff;
+}
+@media(min-width: 700px){
+  button{
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 16px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  background-color: #1976d2;
+}
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
